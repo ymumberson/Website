@@ -46,6 +46,8 @@ import simulation from './simulation-icon.png';
 import machine_learning from './machine-learning-icon.png';
 import ray_tracing from './ray-tracing-icon.png';
 
+import swansea from './company/swansea-university-logo.png';
+
 export {
   logo,
   backend,
@@ -88,4 +90,5 @@ export {
   simulation,
   machine_learning,
   ray_tracing,
+  swansea,
 };

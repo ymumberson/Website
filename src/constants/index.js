@@ -37,6 +37,7 @@ import {
     simulation,
     machine_learning,
     ray_tracing,
+    swansea,
   } from "../assets";
   
   export const navLinks = [
@@ -181,84 +182,123 @@ import {
   ];
   
   const experiences = [
+    // {
+    //   title: "React.js Developer",
+    //   company_name: "Starbucks",
+    //   icon: starbucks,
+    //   iconBg: "#383E56",
+    //   date: "March 2020 - April 2021",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "React Native Developer",
+    //   company_name: "Tesla",
+    //   icon: tesla,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2021 - Feb 2022",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Computer Science Msci Student",
+      company_name: "Swansea University",
+      icon: swansea,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sep 19 - Jun 23",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        // "Developing and maintaining web applications using React.js and other related technologies.",
+        // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        // "Implementing responsive design and ensuring cross-browser compatibility.",
+        // "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conducting research on advanced topics such as simulating global illumination via photon mapping, and simulating social network generation via agent-based city simulations.",
+        "Designing data visualisation both individually and in groups, starting from analysing the problem and ending in implementing the solution.",
+        "Applying machine learning to advanced areas such as identifying objects in a room through point-clouds taken using the Xbox Kinect."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Teaching Assistant",
+      company_name: "Swansea University",
+      icon: swansea,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Feb 23 - Jun 23",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        // "Lab demonstrator, explain difficult concepts to students to help them gain technical skills.",
+        // "Debug students solutions and help fix code, in one-to-one assistance."
+        "Lab demonstrator for the a module on video games programming and a module on mobile development.",
+        "Explain difficult concepts from lectures to students, and help them with coursework difficulties.",
+        "Debug students' code on the fly, and give one-to-one assistance.",
       ],
     },
   ];
   
   const testimonials = [
+    // {
+    //   testimonial:
+    //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    //   name: "Sara Lee",
+    //   designation: "CFO",
+    //   company: "Acme Co",
+    //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+    // },
+    // {
+    //   testimonial:
+    //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    //   name: "Chris Brown",
+    //   designation: "COO",
+    //   company: "DEF Corp",
+    //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+    // },
+    // {
+    //   testimonial:
+    //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    //   name: "Lisa Wang",
+    //   designation: "CTO",
+    //   company: "456 Enterprises",
+    //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // },
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "He's okay I guess",
+      name: "Stefani Dimitrova",
+      designation: "Doughnut Girl",
+      company: "Krispy Kreme",
+      image: 'https://randomuser.me/api/portraits/lego/1.jpg',
     },
   ];
   
