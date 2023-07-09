@@ -1,3 +1,4 @@
+import { data } from "autoprefixer";
 import {
     mobile,
     backend,
@@ -31,6 +32,11 @@ import {
     python,
     vega_lite,
     kotlin,
+    game_development,
+    data_visualisation,
+    simulation,
+    machine_learning,
+    ray_tracing,
   } from "../assets";
   
   export const navLinks = [
@@ -49,21 +55,41 @@ import {
   ];
   
   const services = [
+    // {
+    //   title: "Web Developer",
+    //   icon: web,
+    // },
+    // {
+    //   title: "React Native Developer",
+    //   icon: mobile,
+    // },
+    // {
+    //   title: "Backend Developer",
+    //   icon: backend,
+    // },
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Game Development",
+      icon: game_development,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Simulation",
+      icon: simulation,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Ray Tracing",
+      icon: ray_tracing,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Data Visualisation",
+      icon: data_visualisation,
+    },
+    {
+      title: "Machine Learning",
+      icon: machine_learning,
     },
   ];
   

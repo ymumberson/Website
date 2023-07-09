@@ -30,6 +30,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+// my stuff
 import unity from "./tech/unity.png";
 import c_sharp from "./tech/c_sharp.png";
 import c_plus_plus from "./tech/c_plus_plus.png";
@@ -38,6 +39,12 @@ import tensorflow from "./tech/tensorflow.png";
 import python from "./tech/python.png";
 import vega_lite from "./tech/vega-lite.png";
 import kotlin from './tech/Kotlin_Icon.png';
+
+import game_development from './game-development-icon.png';
+import data_visualisation from './data-visualisation-icon.png';
+import simulation from './simulation-icon.png';
+import machine_learning from './machine-learning-icon.png';
+import ray_tracing from './ray-tracing-icon.png';
 
 export {
   logo,
@@ -76,4 +83,9 @@ export {
   python,
   vega_lite,
   kotlin,
+  game_development,
+  data_visualisation,
+  simulation,
+  machine_learning,
+  ray_tracing,
 };
