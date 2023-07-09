@@ -264,7 +264,7 @@ import {
       points: [
         // "Lab demonstrator, explain difficult concepts to students to help them gain technical skills.",
         // "Debug students solutions and help fix code, in one-to-one assistance."
-        "Lab demonstrator for the a module on video games programming and a module on mobile development.",
+        "Lab demonstrator for a module on video games programming and a module on mobile development.",
         "Explain difficult concepts from lectures to students, and help them with coursework difficulties.",
         "Debug students' code on the fly, and give one-to-one assistance.",
       ],
