@@ -30,6 +30,15 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import unity from "./tech/unity.png";
+import c_sharp from "./tech/c_sharp.png";
+import c_plus_plus from "./tech/c_plus_plus.png";
+import java from "./tech/java.png";
+import tensorflow from "./tech/tensorflow.png";
+import python from "./tech/python.png";
+import vega_lite from "./tech/vega-lite.png";
+import kotlin from './tech/Kotlin_Icon.png';
+
 export {
   logo,
   backend,
@@ -59,4 +68,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  unity,
+  c_sharp,
+  c_plus_plus,
+  java,
+  tensorflow,
+  python,
+  vega_lite,
+  kotlin,
 };

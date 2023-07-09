@@ -23,6 +23,14 @@ import {
     jobit,
     tripguide,
     threejs,
+    unity,
+    c_sharp,
+    c_plus_plus,
+    java,
+    tensorflow,
+    python,
+    vega_lite,
+    kotlin,
   } from "../assets";
   
   export const navLinks = [
@@ -60,57 +68,89 @@ import {
   ];
   
   const technologies = [
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Unity",
+      icon: unity,
     },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
     {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
+    // {
+    //   name: "React JS",
+    //   icon: reactjs,
+    // },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "git",
       icon: git,
     },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
     {
-      name: "figma",
-      icon: figma,
+      name: "C#",
+      icon: c_sharp,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "C++",
+      icon: c_plus_plus,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Tensorflow",
+      icon: tensorflow,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Vega-lite",
+      icon: vega_lite,
+    },
+    {
+      name: "Kotlin",
+      icon: kotlin,
     },
   ];
   
