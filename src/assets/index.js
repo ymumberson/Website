@@ -48,6 +48,11 @@ import ray_tracing from './ray-tracing-icon.png';
 
 import swansea from './company/swansea-university-logo.png';
 
+import path_tracing from './path-tracing.png';
+import GPU_path_tracing from './GPU-raytracing.jpg';
+import social_networks from './social-network-image.png';
+import sugarscape from './sugarscape-prototype.png';
+
 export {
   logo,
   backend,
@@ -91,4 +96,8 @@ export {
   machine_learning,
   ray_tracing,
   swansea,
+  path_tracing,
+  GPU_path_tracing,
+  social_networks,
+  sugarscape,
 };

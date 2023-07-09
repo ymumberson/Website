@@ -38,6 +38,10 @@ import {
     machine_learning,
     ray_tracing,
     swansea,
+    path_tracing,
+    GPU_path_tracing,
+    social_networks,
+    sugarscape,
   } from "../assets";
   
   export const navLinks = [
@@ -304,67 +308,63 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Social Network Simulation",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "4th Year Project. Growing realistic social networks from the ground up in an agent-based city landscape.",
       tags: [
         {
-          name: "react",
+          name: "Unity",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Agent-based",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Simulation",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: social_networks,
+      source_code_link: "https://github.com/ymumberson/SocialNetworks",
     },
     {
-      name: "Job IT",
+      name: "Path Tracing",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Simple path tracer written from scratch in C++.",
       tags: [
         {
-          name: "react",
+          name: "C++",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "RayTracing",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: path_tracing,
+      source_code_link: "https://github.com/ymumberson/Ray-Tracing-C--",
     },
     {
-      name: "Trip Guide",
+      name: "GPU Path Tracing",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Very basic path tracer written in Unity using a Compute Shader.",
       tags: [
         {
-          name: "nextjs",
+          name: "Unity",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "RayTracing",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "HLSL",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: GPU_path_tracing,
+      source_code_link: "https://github.com/ymumberson/GPU-Ray-Tracing-in-Unity",
     },
   ];
   
