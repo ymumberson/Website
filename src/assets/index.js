@@ -30,6 +30,29 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+// my stuff
+import unity from "./tech/unity.png";
+import c_sharp from "./tech/c_sharp.png";
+import c_plus_plus from "./tech/c_plus_plus.png";
+import java from "./tech/java.png";
+import tensorflow from "./tech/tensorflow.png";
+import python from "./tech/python.png";
+import vega_lite from "./tech/vega-lite.png";
+import kotlin from './tech/Kotlin_Icon.png';
+
+import game_development from './game-development-icon.png';
+import data_visualisation from './data-visualisation-icon.png';
+import simulation from './simulation-icon.png';
+import machine_learning from './machine-learning-icon.png';
+import ray_tracing from './ray-tracing-icon.png';
+
+import swansea from './company/swansea-university-logo.png';
+
+import path_tracing from './path-tracing.png';
+import GPU_path_tracing from './GPU-raytracing.jpg';
+import social_networks from './social-network-image.png';
+import sugarscape from './sugarscape-prototype.png';
+
 export {
   logo,
   backend,
@@ -59,4 +82,22 @@ export {
   carrent,
   jobit,
   tripguide,
+  unity,
+  c_sharp,
+  c_plus_plus,
+  java,
+  tensorflow,
+  python,
+  vega_lite,
+  kotlin,
+  game_development,
+  data_visualisation,
+  simulation,
+  machine_learning,
+  ray_tracing,
+  swansea,
+  path_tracing,
+  GPU_path_tracing,
+  social_networks,
+  sugarscape,
 };
