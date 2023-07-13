@@ -3,7 +3,7 @@ import { Tilt } from 'react-tilt';
 // import Tilt from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { services } from '../constants';
+import { services, titles, strings } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
@@ -34,15 +34,15 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>{titles.find(({ id }) => id === "Introduction-main").text}</p>
+        <h2 className={styles.sectionHeadText}>{titles.find(({ id }) => id === "Introduction-sub").text}</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary tex-[17px] max-w-3xl leading-[30px]'
       >
-       Recent Computer Science Msci Graduate. Passionate about software development, with experience in C, C++, C#, and Java. Often push myself outside of my comfort zone, and keep trying new ideas until I solve the problem. Work great in a team, always willing to do my part and discuss the pros and cons of ideas. 
+        {strings.find(({ id }) => id === "Introduction-text").text}
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

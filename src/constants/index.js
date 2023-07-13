@@ -299,7 +299,7 @@ import {
       text: "I'm a Graduate Computer Scientist with experience in Simulations, Video Game Development, Ray Tracing, Data Visualisation, and Machine Learning.",
     },
     {
-      id: "Overview-text",
+      id: "Introduction-text",
       text: "Recent Computer Science Msci Graduate. Passionate about software development, with experience in C, C++, C#, and Java. Often push myself outside of my comfort zone, and keep trying new ideas until I solve the problem. Work great in a team, always willing to do my part and discuss the pros and cons of ideas.",
     },
     {
