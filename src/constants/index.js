@@ -355,4 +355,47 @@ import {
     },
   ];
 
-  export { services, technologies, experiences, testimonials, projects, strings, titles };
+  const contactForm = [
+    {
+      id: "Name-title",
+      text: "Your Name",
+    },
+    {
+      id: "Name-text",
+      text: "What's your name?",
+    },
+    {
+      id: "Email-title",
+      text: "Your Email",
+    },
+    {
+      id: "Email-text",
+      text: "What's your email?",
+    },
+    {
+      id: "Message-title",
+      text: "Your Message",
+    },
+    {
+      id: "Message-text",
+      text: "What do you want to say?",
+    },
+    {
+      id: "Alert-successful",
+      text: "Thank you. I will get back to you as soon as possible.",
+    },
+    {
+      id: "Alert-unsuccessful",
+      text: "Something went wrong.",
+    },
+    {
+      id: "Send",
+      text: "Send",
+    },
+    {
+      id: "Sending",
+      text: "Sending...",
+    },
+  ];
+
+  export { services, technologies, experiences, testimonials, projects, strings, titles, contactForm };

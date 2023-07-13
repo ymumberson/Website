@@ -5,6 +5,7 @@ import { styles } from '../styles';
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
+import { titles, contactForm } from '../constants';
 
 const Contact = () => {
   const formRef = useRef();
@@ -38,7 +39,7 @@ const Contact = () => {
      )
      .then(() => {
       setLoading(false);
-      alert('Thank you. I will get back to you as soon as possible.');
+      alert(contactForm.find(({ id }) => id === "Alert-successful").text);
 
       setForm({
         name: '',
@@ -48,7 +49,7 @@ const Contact = () => {
      }, (error) => {
       setLoading(false);
       console.log(error);
-      alert('Something went wrong.');
+      alert(contactForm.find(({ id }) => id === "Alert-successful").text);
      });
   } 
 
@@ -58,8 +59,8 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className={styles.sectionSubText}>{titles.find(({ id }) => id === "Contact-main").text}</p>
+        <h3 className={styles.sectionHeadText}>{titles.find(({ id }) => id === "Contact-sub").text}</h3>
 
         <form
           ref={formRef}
@@ -67,37 +68,37 @@ const Contact = () => {
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
+            <span className='text-white font-medium mb-4'>{contactForm.find(({ id }) => id === "Name-title").text}</span>
             <input 
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your name?"
+              placeholder={contactForm.find(({ id }) => id === "Name-text").text}
               className='bg-tertiary py-4 px-6 placeholder:text-secondary rounded-lg outline-none border-none'
             />
           </label>
 
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Email</span>
+            <span className='text-white font-medium mb-4'>{contactForm.find(({ id }) => id === "Email-title").text}</span>
             <input 
               type="email"
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your email?"
+              placeholder={contactForm.find(({ id }) => id === "Name-text").text}
               className='bg-tertiary py-4 px-6 placeholder:text-secondary rounded-lg outline-none border-none'
             />
           </label>
 
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Message</span>
+            <span className='text-white font-medium mb-4'>{contactForm.find(({ id }) => id === "Message-title").text}</span>
             <textarea
               rows="7"
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="What do you want to say?"
+              placeholder={contactForm.find(({ id }) => id === "Name-text").text}
               className='bg-tertiary py-4 px-6 placeholder:text-secondary rounded-lg outline-none border-none'
             />
           </label>
@@ -106,7 +107,7 @@ const Contact = () => {
             type='submit'
             className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
           >
-            {loading ? 'Sending...' : 'Send'}
+            {loading ? contactForm.find(({ id }) => id === "Sending").text : contactForm.find(({ id }) => id === "Send").text}
           </button>
         </form>
       </motion.div>
