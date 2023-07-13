@@ -44,11 +44,11 @@
 }
 
 .blue-gradient {
-  background: #96CCFF;
-  background: linear-gradient(-90deg, #96CCFF 0%, rgba(60, 51, 80, 0) 100%);
+  background: #00ddff;
+  background: linear-gradient(-90deg, #00ddff 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #96CCFF 0%,
+    #00ddff 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
@@ -57,6 +57,12 @@
   background: "#00cea8";
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+}
+
+.card-gradient {
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #00ddff 1.9%, #0000ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00ddff 1.9%, #0000ff 97.5%);
 }
 
 .orange-text-gradient {
