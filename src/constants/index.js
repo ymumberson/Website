@@ -338,11 +338,11 @@ import {
       text: "Projects.",
     },
     {
-      id: "Testimonails-main",
+      id: "Testimonials-main",
       text: "What others say",
     },
     {
-      id: "Testimonails-sub",
+      id: "Testimonials-sub",
       text: "Testimonials.",
     },
     {

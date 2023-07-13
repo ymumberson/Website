@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { fadeIn, textVariant } from '../utils/motion';
-import { testimonials } from '../constants';
+import { testimonials, titles } from '../constants';
 
 const FeedbackCard = ({ index, testimonial, name, designation, company, image }) => (
  <motion.div
@@ -43,8 +43,8 @@ const Feedbacks = () => {
         <motion.div
           variants={textVariant()}
         >
-          <p className={styles.sectionSubText}>What others say</p>
-          <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+          <p className={styles.sectionSubText}>{titles.find(({ id }) => id === "Testimonials-main").text}</p>
+          <h2 className={styles.sectionHeadText}>{titles.find(({ id }) => id === "Testimonials-sub").text}.</h2>
         </motion.div>
       </div>
 
