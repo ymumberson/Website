@@ -285,7 +285,7 @@ import {
     },
   ];
   
-  export const strings = [
+  const strings = [
     {
       id: "Name",
       text: "Yoshan",
@@ -304,7 +304,7 @@ import {
     },
   ];
 
-  export const titles = [
+  const titles = [
     {
       id: "Title",
       text: "Hi, I'm ",
@@ -316,7 +316,7 @@ import {
     {
       id: "Introduction-sub",
       text: "Overview.",
-    },,
+    },
     {
       id: "WorkExperience-main",
       text: "What I have done so far",
@@ -349,6 +349,6 @@ import {
       id: "Contact-sub",
       text: "Contact.",
     },
-  ]
+  ];
 
   export { services, technologies, experiences, testimonials, projects, strings, titles };
