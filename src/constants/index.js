@@ -291,6 +291,10 @@ import {
       text: "Yoshan",
     },
     {
+      id: "Role",
+      text: "Software Developer",
+    },
+    {
       id: "Title-text",
       text: "I'm a Graduate Computer Scientist with experience in Simulations, Video Game Development, Ray Tracing, Data Visualisation, and Machine Learning.",
     },
